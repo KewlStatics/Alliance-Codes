@@ -770,6 +770,9 @@ class User {
 		}
 		return false;
 	}
+		showNews(userid, this);
+		return false;
+	}
 	forceRename(name, registered, isForceRenamed) {
 		// skip the login server
 		let userid = toId(name);
